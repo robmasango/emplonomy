@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EntityMappings\**" />
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Repositories\**" />
+    <Compile Remove="User\**" />
+    <EmbeddedResource Remove="EntityMappings\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Repositories\**" />
+    <EmbeddedResource Remove="User\**" />
+    <None Remove="EntityMappings\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Repositories\**" />
+    <None Remove="User\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstract\DataSession.cs" />
+    <Compile Remove="Abstract\IUnitOfWork.cs" />
+    <Compile Remove="Abstract\IUnitOfWorkFactory.cs" />
+    <Compile Remove="Abstract\UnitOfWork.cs" />
+    <Compile Remove="Abstract\UnitOfWorkFactory.cs" />
+    <Compile Remove="Security\MembershipApi.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Repositories\Admin\AddressTypeRepository.cs" />
+    <Compile Include="Repositories\Admin\DepartmentRepository.cs" />
+    <Compile Include="Repositories\Admin\ErrorRepository.cs" />
+    <Compile Include="Repositories\Admin\LocationRepository.cs" />
+    <Compile Include="Repositories\Admin\OrganisationRepository.cs" />
+    <Compile Include="Repositories\Admin\PassowordQsBankRepository.cs" />
+    <Compile Include="Repositories\Admin\ProvisionedRepository.cs" />
+    <Compile Include="Repositories\Admin\RoleRepository.cs" />
+    <Compile Include="Repositories\Admin\SendSmsStatusRepository.cs" />
+    <Compile Include="Repositories\Admin\ShortMessageRepository.cs" />
+    <Compile Include="Repositories\EntityBaseRepository.cs" />
+    <Compile Include="Repositories\User\DepartmentManagerRepository.cs" />
+    <Compile Include="Repositories\User\EmplonomyUserRepository.cs" />
+    <Compile Include="Repositories\User\OrganisationManagerRepository.cs" />
+    <Compile Include="Repositories\User\UserAddressRepository.cs" />
+    <Compile Include="Repositories\User\UserRoleRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Emplonomy.Model\Emplonomy.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Survey\" />
+  </ItemGroup>
+
+</Project>

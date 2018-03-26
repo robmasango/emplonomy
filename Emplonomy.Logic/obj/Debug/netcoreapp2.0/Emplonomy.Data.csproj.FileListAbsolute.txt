@@ -1,0 +1,11 @@
+E:\Projects\Core\Emplonomy\Emplonomy.Data\bin\Debug\netcoreapp2.0\Emplonomy.Data.deps.json
+E:\Projects\Core\Emplonomy\Emplonomy.Data\bin\Debug\netcoreapp2.0\Emplonomy.Data.dll
+E:\Projects\Core\Emplonomy\Emplonomy.Data\bin\Debug\netcoreapp2.0\Emplonomy.Data.pdb
+E:\Projects\Core\Emplonomy\Emplonomy.Data\bin\Debug\netcoreapp2.0\Emplonomy.Model.dll
+E:\Projects\Core\Emplonomy\Emplonomy.Data\bin\Debug\netcoreapp2.0\Emplonomy.Model.pdb
+E:\Projects\Core\Emplonomy\Emplonomy.Data\obj\Debug\netcoreapp2.0\Emplonomy.Data.csprojResolveAssemblyReference.cache
+E:\Projects\Core\Emplonomy\Emplonomy.Data\obj\Debug\netcoreapp2.0\Emplonomy.Data.csproj.CoreCompileInputs.cache
+E:\Projects\Core\Emplonomy\Emplonomy.Data\obj\Debug\netcoreapp2.0\Emplonomy.Data.AssemblyInfoInputs.cache
+E:\Projects\Core\Emplonomy\Emplonomy.Data\obj\Debug\netcoreapp2.0\Emplonomy.Data.AssemblyInfo.cs
+E:\Projects\Core\Emplonomy\Emplonomy.Data\obj\Debug\netcoreapp2.0\Emplonomy.Data.dll
+E:\Projects\Core\Emplonomy\Emplonomy.Data\obj\Debug\netcoreapp2.0\Emplonomy.Data.pdb
