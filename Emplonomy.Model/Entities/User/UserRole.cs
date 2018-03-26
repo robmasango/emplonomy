@@ -1,0 +1,1 @@
+﻿namespace Emplonomy.Model{    public class UserRole : IEntityBase    {        public int ID { get; set; }        public int UserID { get; set; }        public int RoleID { get; set; }        public bool isDeleted { get; set; }        public virtual EmplonomyUser EmplonomyUser { get; set; }        public virtual Role Role { get; set; }    }}
